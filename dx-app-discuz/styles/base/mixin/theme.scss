@@ -1,5 +1,0 @@
-@mixin themeify {
-  @each $name, $color in $colors {
-    #{$name}: #{$color};
-  }
-}

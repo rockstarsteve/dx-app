@@ -1,6 +1,6 @@
 {
-    "name" : "dx-unicloud",
-    "appid" : "__UNI__0511EB9",
+    "name" : "dx-cloud01",
+    "appid" : "__UNI__1EBA703",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -71,5 +71,8 @@
     },
     "mp-toutiao" : {
         "usingComponents" : true
+    },
+    "uniStatistics": {  
+        "enable": false
     }
 }
