@@ -18,7 +18,9 @@ exports.main = async (event, context) => {
   // 开始抓取首页链接
   let indexArr = []
   let html = request('GET', host).getBody().toString();
+  console.log('html数据:',html)
   let $ = cheerio.load(html);
+  console.log('$数据:',$)
   // 获取文章节点
   let list = $('.main-content-wrap .row').find('.link-button')
   for (var i = 0; i < list.length; i++) {

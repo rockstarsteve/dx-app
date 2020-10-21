@@ -1,0 +1,50 @@
+{
+	"global": { // 集合（表名）
+		"data": [ // 数据
+			{
+				"global": {
+					"version": "1.0.1"
+				},
+				"globalStyle":{
+					"taberStyle": {
+						"midButton": true,
+						"current": 0,
+						"bg": "#fff",
+						"active": "blue",
+						"inactive": ""
+					},
+					"navbar": {
+						"mainColor": "red",
+						"headColor": "blue",
+						"titlColor": "#fff",
+						"background": {
+							"backgroundImage": "linear-gradient(45deg, rgb(28, 187, 180), rgb(141, 198, 63))"
+						}
+					}
+				},
+				"taber": [{
+					"icon": "cuIcon-search",
+					"name": "发现",
+					"eName": "find"
+				}, {
+					"icon": "cuIcon-activity",
+					"name": "招募",
+					"eName": "notice"
+				}, {
+					"icon": "cuIcon-search",
+					"middle": true,
+					"name": "发布",
+					"eName": "up"
+				}, {
+					"icon": "cuIcon-message",
+					"name": "闲聊",
+					"eName": "chat"
+				}, {
+					"icon": "cuIcon-home",
+					"name": "我的",
+					"eName": "me"
+				}]
+				
+			}]
+		}
+}
